@@ -56,19 +56,19 @@ module base() {
     difference() {
         cube([10+boardx+10, 20, 6]);
         translate([10, -0.2, -0.5]) cube([boardx, boardy-3, 7]);
-        translate([10+boardx+4, boardy-2.2, -0.1])scale([1,1,1.3])downpin1();
-        translate([10+boardx+4-16, boardy-2.2, -0.1])scale([1,1,1.3])downpin1();
+        //translate([10+boardx+4, boardy-2.2, -0.1])scale([1,1,1.3])downpin1();
+        //translate([10+boardx+4-16, boardy-2.2, -0.1])scale([1,1,1.3])downpin1();
     }
 }
 
 
- translate([10, 0, 0.2]) sensor_board();
+// translate([10, 0, 0.2]) sensor_board();
 
 
 translate([10, 0, 0.2]) color("black", 1) union() {
     translate([boardx/2, boardy-2.2, 6]) support3d();
     translate([boardx/2, boardy-2.2, 6+2]) pin();
-    translate([boardx+4, boardy-2.2, 0])downpin1();
-    translate([boardx+4-16, boardy-2.2, 0])downpin1();
+    //translate([boardx+4, boardy-2.2, 0])downpin1();
+    //translate([boardx+4-16, boardy-2.2, 0])downpin1();
     translate([-10, 0, -0.2]) scale([1,1, 1.2]) base();
 }
