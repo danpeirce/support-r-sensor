@@ -13,7 +13,7 @@ to read the sensor employed by the robot.
 
 ![](view3.png)
 
-![](viewrender.png)
+![](view4render.png)
 
 ### 3D viewer of STL
 
