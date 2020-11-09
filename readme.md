@@ -26,3 +26,11 @@ Github incorperates an interactive 3D viewer for STL files.
 The OpenSCAD file used to generate the other files is here:
 
 * [support-r-sensor.scad](support-r-sensor.scad)
+
+One can preveiw what the sensor board looks like on the support if the following line in the SCAD file is uncommented
+and then the preview is obtained from OpenSCAD.
+
+~~~~scad
+// translate([10, 0, 0.2]) sensor_board();
+~~~~
+
