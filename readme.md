@@ -5,6 +5,8 @@ support that will hold the sensor on the board 8 mm from a reflective surface. T
 Pololu 3Pi robot. The combination of the board and support should allow the students to investigate the techniques used 
 to read the sensor employed by the robot.
 
+![](sensor-height.png)
+
 ## Channels Added
 
 This branch differs from the master branch in that channels have been added to the support piece. 
@@ -14,9 +16,23 @@ This branch differs from the master branch in that channels have been added to t
 
 ## Images of different views
 
+* virtual view 1
+
 ![](view1.png)
 
+* real view 2
+
+![](view1.png)
+
+* virtual view 2
+
 ![](view2.png)
+
+* real view 2
+
+![](view2real.png)
+
+* virtual view 3
 
 ![](view3.png)
 
