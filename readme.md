@@ -9,7 +9,7 @@ to read the sensor employed by the robot.
 
 ## Channels Added
 
-This branch differs from the master branch in that channels have been added to the support piece. 
+Channels have been added to the support piece. 
 
 * Two channels on top to insert hot glue into to hold the board down.
 * One channel on the bottom so that material can be added underneath if desired to add mass.
