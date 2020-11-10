@@ -1,13 +1,13 @@
 # Support for Pololu PQTR-1A  Refective Sensor
 
-The Pololu QTR-1A refective sensor from Pololu is a very small breakout board containing a QRE1113GR SMT. I have designed a 
+The Pololu QTR-1A reflective sensor from Pololu is a very small breakout board containing a QRE1113GR SMT. I have designed a 
 support that will hold the sensor on the board 8 mm from a reflective surface. This is the distance used on the 
 Pololu 3Pi robot. The combination of the board and support should allow the students to investigate the techniques used 
 to read the sensor employed by the robot.
 
 ## Channels Added
 
-This branch differes from the master branch in that channels have been added to the support piece. 
+This branch differs from the master branch in that channels have been added to the support piece. 
 
 * Two channels on top to insert hot glue into to hold the board down.
 * One channel on the bottom so that material can be added underneath if desired to add mass.
@@ -34,7 +34,7 @@ The OpenSCAD file used to generate the other files is here:
 
 * [support-r-sensor.scad](support-r-sensor.scad)
 
-One can preveiw what the sensor board looks like on the support if the following line in the SCAD file is uncommented
+One can preview what the sensor board looks like on the support if the following line in the SCAD file is uncommitted
 and then the preview is obtained from OpenSCAD.
 
 ~~~~scad
