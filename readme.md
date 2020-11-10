@@ -20,9 +20,13 @@ This branch differs from the master branch in that channels have been added to t
 
 ![](view1.png)
 
-* real view 2
+* real view 1
 
-![](view1.png)
+![](view1real.png)
+
+* sensor over tape
+
+![](sensor-over-tape.png)
 
 * virtual view 2
 
