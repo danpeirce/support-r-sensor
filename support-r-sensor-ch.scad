@@ -71,7 +71,7 @@ module base() {
 }
 
 
-// translate([10, 0, 0.2]) sensor_board();
+//translate([10, 0, 0.2]) sensor_board();
 
 
 translate([10, 0, 0.2]) color("black", 1) union() {
