@@ -5,6 +5,13 @@ support that will hold the sensor on the board 8 mm from a reflective surface. T
 Pololu 3Pi robot. The combination of the board and support should allow the students to investigate the techniques used 
 to read the sensor employed by the robot.
 
+## Channels Added
+
+This branch differes from the master branch in that channels have been added to the support piece. 
+
+* Two channels on top to insert hot glue into to hold the board down.
+* One channel on the bottom so that material can be added underneath if desired to add mass.
+
 ## Images of different views
 
 ![](view1.png)

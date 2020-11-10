@@ -27,7 +27,9 @@ module sensor_board() {   // this module will locate the board and sensor the ri
     }
 }
 
-
+module chamber_glue_board() {
+    
+}
 
 module support3d() {
     
@@ -38,8 +40,16 @@ module support3d() {
     
         translate([boardx/2, -5.9, 0]) scale([1.3, 0.7, 1]) cylinder( d = 2.5,  h = 3.7, $fn= 8);
         translate([-boardx/2, -5.9, 0]) scale([1.3, 0.7, 1]) cylinder( d = 2.5,  h = 3.7, $fn= 8);
-        translate([boardx/2+1.55+1.5,-boardy/2+2.2+2, (3.7+1+1)/2]) cube([6, boardy-3, 3.7+2], center = true );
-        translate([-(boardx/2+1.55+1.5),-boardy/2+2.2+2, (3.7+1+1)/2]) cube([6, boardy-3, 3.7+2], center = true );
+        translate([boardx/2+1.55+1.5,-boardy/2+2.2+2, (3.7+1+1)/2]) difference() {
+            cube([6, boardy-3, 3.7+2], center = true );
+            translate([0,-1.5,2])cube([3,3,3], center = true);
+            translate([-1,-1.5,3])rotate([0,45,0])scale([0.8,0.65, 1.5])sphere(r=2, $fn=20 );
+        };
+        translate([-(boardx/2+1.55+1.5),-boardy/2+2.2+2, (3.7+1+1)/2]) difference() {
+            cube([6, boardy-3, 3.7+2], center = true );
+            translate([0,-1.5,2])cube([3,3,3], center = true);
+            translate([1,-1.5,3])rotate([0,-45,0])scale([0.8,0.65, 1.5])sphere(r=2, $fn=20 );
+        }
     }
 }
 
@@ -56,8 +66,7 @@ module base() {
     difference() {
         cube([10+boardx+10, 20, 6]);
         translate([10, -0.2, -0.5]) cube([boardx, boardy-3, 7]);
-        //translate([10+boardx+4, boardy-2.2, -0.1])scale([1,1,1.3])downpin1();
-        //translate([10+boardx+4-16, boardy-2.2, -0.1])scale([1,1,1.3])downpin1();
+        translate([3.5, 15, 0])rotate([0,90,0])scale([2,0.8,1])cylinder( d = 5, h = 20, $fn= 40);
     }
 }
 
