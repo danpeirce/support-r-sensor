@@ -3,7 +3,8 @@
 The [Pololu QTR-1A reflective sensor](https://www.pololu.com/product/2459) from Pololu is a very small breakout board containing a 
 [QRE1113GR](https://www.pololu.com/file/0J117/QRE1113GR.pdf) SMT. I have designed a 
 support that will hold the sensor on the board 8 mm from a reflective surface. This is the distance used on the 
-Pololu 3Pi robot. The combination of the board and support should allow the students to investigate the techniques used 
+[Pololu 3Pi robot](https://github.com/danpeirce/xpress-pic18f46k42/tree/3pi-menu-basic1#pololu-3pi-robot). The combination of the board and support should allow the students 
+to investigate the techniques used 
 to read the sensor employed by the robot.
 
 ![](sensor-height.png)
